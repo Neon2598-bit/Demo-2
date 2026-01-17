@@ -20,3 +20,21 @@
 
     z-index: -1; /* To move it behind other elements */
 }
+
+.link {
+    color: red;
+    text-decoration: dotted;
+    font-size: 50px;
+    background-color: yellow;
+    border-radius: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Pseudo-classes */
+.link:hover {
+    color: blue;
+    background-color: orange;
+    font-size: 60px;
+    text-decoration: solid;
+}
