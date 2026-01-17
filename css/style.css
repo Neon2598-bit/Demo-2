@@ -21,15 +21,50 @@
     z-index: -1; /* To move it behind other elements */
 }
 
-.link {
+/* .link {
     color: red;
-    text-decoration: dotted;
     font-size: 50px;
     background-color: yellow;
-    border-radius: 35px;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: block;
+    padding: 50px;
 }
+
+.link:hover a{
+    display: none;
+    color: blue;
+    font-size: 75px;
+    background-color: orange;
+} */
+
+.link {
+    color: red;
+    font-size: 50px;
+}
+
+.link a{
+    visibility: hidden;
+}
+
+.link:hover a{
+    visibility: visible;
+    color: blue;
+    font-size: 75px;
+    background-color: orange;
+}
+
+
+/* .link a{
+    display: none;
+    color: red;
+    font-size: large;
+}
+
+.link:hover a{
+    display: block;
+    color: blue;
+    font-size: 75px;
+    background-color: orange;
+} */
 
 /* Pseudo-classes */
 /* .link:hover {
@@ -44,4 +79,12 @@
     background-color: pink;
     font-size: 70px;
     text-decoration: underline;
+} */
+
+/* .link:hover{
+    display: block;
+    color: blue;
+    background-color: orange;
+    font-size: 60px;
+    text-decoration: line-through;
 } */
