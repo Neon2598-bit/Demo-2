@@ -52,6 +52,11 @@
     background-color: orange;
 }
 
+::selection {
+    background-color: rgb(201, 12, 12);
+    color: rgb(255, 255, 255);
+}
+
 
 /* .link a{
     display: none;
