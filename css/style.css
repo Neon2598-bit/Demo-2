@@ -5,8 +5,18 @@
     border: 2px solid black;
     padding: 10px;
 
-    position: relative;
+    /* position: relative;
 
     top: 100px;
-    left: 100px;
+    left: 100px; */
+
+    /* position: fixed;
+
+    bottom: 50px;
+    left: 100px; */
+
+    position: sticky;
+    top: 50px;
+
+    z-index: -1; /* To move it behind other elements */
 }
