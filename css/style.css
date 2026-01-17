@@ -32,9 +32,16 @@
 }
 
 /* Pseudo-classes */
-.link:hover {
+/* .link:hover {
     color: blue;
     background-color: orange;
     font-size: 60px;
-    text-decoration: solid;
+    text-decoration: line-through;
 }
+
+.link:active {
+    color: green;
+    background-color: pink;
+    font-size: 70px;
+    text-decoration: underline;
+} */
